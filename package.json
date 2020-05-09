@@ -1,5 +1,5 @@
 {
-  "name": "Covid-19 US Dashboard",
+  "name": "C19",
   "description": "A dashboard web application displaying Covid-19 metrics for the United States",
   "version": "0.0.1",
   "scripts": {
