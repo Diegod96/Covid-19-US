@@ -2,7 +2,7 @@
     import requests from "../data/requests";
     export async function preload() {
         try {
-            throw new Error('this is bad :(');
+            // throw new Error('this is bad :(');
             const usStats = await requests.usStats();
             return  { usStats }
         } catch (e) {
