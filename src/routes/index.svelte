@@ -4,8 +4,10 @@
         try {
             // throw new Error('this is bad :(');
             const usStats = await requests.usStats();
-            return  { usStats }
+            const historic = await requests.historicUS();
+            return  { usStats, historic }
         } catch (e) {
+            console.log(e);
             this.error(500, "There was an error in calling the api, please try again in 5 minutes.");
             return;
         }
@@ -20,6 +22,8 @@
     import TableContainer from "../components/TableContainer.svelte";
 
     export let usStats;
+    export let historic;
+    console.log(historic, 'historicUS')
     console.log(usStats, 'usStats')
 </script>
 
