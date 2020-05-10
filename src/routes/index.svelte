@@ -2,10 +2,12 @@
     import requests from "../data/requests";
     export async function preload() {
         try {
+            throw new Error('this is bad :(');
             const usStats = await requests.usStats();
             return  { usStats }
         } catch (e) {
-            
+            this.error(500, "There was an error in calling the api, please try again in 5 minutes.");
+            return;
         }
     }
 </script>
@@ -31,6 +33,6 @@
     </div>
 </div>
 
-<CovidStats />
+<CovidStats {...usStats} />
 <CovidChart />
 <TableContainer />
