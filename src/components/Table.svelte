@@ -34,7 +34,7 @@
                     <td>{state.deaths}</td>
                     <td>{state.tested}</td>
                 </tr>
-            {/each}}
+            {/each}
             </tbody>
         </table>
     </div>
