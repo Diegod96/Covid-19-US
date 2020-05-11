@@ -10,6 +10,13 @@
 	@media (min-width: 769px) {
 		nav {
 			border-bottom: solid gray 1px;
+			background-color: #2f2f2f;
+		}
+		#text {
+			color: white;
+		}
+		#text:hover{
+			color: black;
 		}
 	}
 </style>
@@ -36,6 +43,7 @@
 					rel="prefetch"
 					href="/"
 					class="navbar-item"
+					id="text"
 					class:is-active={segment === undefined}>
 				Home
 			</a>
@@ -43,6 +51,7 @@
 					rel="prefetch"
 					href="/about"
 					class="navbar-item"
+					id="text"
 					class:is-active={segment === 'about'}>
 				About
 			</a>
@@ -50,6 +59,7 @@
 					rel="prefetch"
 					href="https://eloquent-jones-2d79ac.netlify.app/"
 					class="navbar-item"
+					id="text"
 					class:is-active={segment === undefined}>
 				Handwashing Application
 			</a>
@@ -57,6 +67,7 @@
 					rel="prefetch"
 					href="https://master.d30wuvfk5j97tx.amplifyapp.com/"
 					class="navbar-item"
+					id="text"
 					class:is-active={segment === undefined}>
 				Covid-19 Global Dashboard
 			</a>
@@ -64,6 +75,7 @@
 					rel="prefetch"
 					href="https://covid-flask.herokuapp.com/"
 					class="navbar-item"
+					id="text"
 					class:is-active={segment === undefined}>
 				Covid-19 Probability Detector
 			</a>
