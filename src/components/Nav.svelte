@@ -16,9 +16,9 @@
 
 <nav class="navbar" role="navigation" aria-label="main navigation">
 	<div class="navbar-brand">
-		<a rel="prefetch" href="/" class="navbar-item">
-			<img src="logo.jpg" alt="virus" />
-		</a>
+<!--		<a rel="prefetch" href="/" class="navbar-item">-->
+<!--			<img src="logo.jpg" alt="virus" />-->
+<!--		</a>-->
 		<span
 				class="navbar-burger"
 				class:is-active={isOpen}
@@ -45,6 +45,27 @@
 					class="navbar-item"
 					class:is-active={segment === 'about'}>
 				About
+			</a>
+			<a
+					rel="prefetch"
+					href="https://eloquent-jones-2d79ac.netlify.app/"
+					class="navbar-item"
+					class:is-active={segment === undefined}>
+				Handwashing Application
+			</a>
+			<a
+					rel="prefetch"
+					href="https://master.d30wuvfk5j97tx.amplifyapp.com/"
+					class="navbar-item"
+					class:is-active={segment === undefined}>
+				Covid-19 Global Dashboard
+			</a>
+			<a
+					rel="prefetch"
+					href="https://covid-flask.herokuapp.com/"
+					class="navbar-item"
+					class:is-active={segment === undefined}>
+				Covid-19 Probability Detector
 			</a>
 		</div>
 	</div>
