@@ -1,6 +1,6 @@
 # A Covid-19 Dashboard for the United States
 
-This can be found at https://hardcore-ramanujan-a1457f.netlify.app/
+This can be found at https://master.d30wuvfk5j97tx.amplifyapp.com/
 
 To use:
 - Clone the repo
