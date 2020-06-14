@@ -6,3 +6,7 @@ To use:
 - Clone the repo
 - npm install the package.json
 - type `npm start` in the console to run locally
+
+
+TODO:
+ - Unit test cases
