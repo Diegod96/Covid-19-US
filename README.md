@@ -10,3 +10,4 @@ To use:
 
 TODO:
  - Unit test cases
+ - Github actions
